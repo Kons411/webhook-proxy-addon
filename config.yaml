@@ -1,6 +1,6 @@
 name: Webhook Proxy (GET to POST)
 version: "1.0.0"
-slug: webhook-proxy-addon
+slug: webhook_proxy_addon
 description: Wandelt einen GET-Webhook in einen POST-Webhook fuer Home Assistant
 startup: services
 boot: auto
