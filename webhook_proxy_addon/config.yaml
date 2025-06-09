@@ -8,6 +8,5 @@ host_network: true
 homeassistant_api: false
 options: {}
 schema: {}
-init: false
 ports:
   8888/tcp: 8888
