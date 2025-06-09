@@ -1,0 +1,13 @@
+name: Webhook Proxy (GET to POST)
+version: "1.0.0"
+slug: webhook_proxy
+description: Wandelt einen GET-Webhook in einen POST-Webhook fuer Home Assistant
+startup: services
+boot: auto
+host_network: true
+homeassistant_api: false
+options: {}
+schema: {}
+init: false
+ports:
+  8888/tcp: 8888
